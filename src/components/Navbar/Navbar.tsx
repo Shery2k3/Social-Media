@@ -12,6 +12,7 @@ const Navbar = () => {
   const pages = [
     { label: "Home", path: "/" },
     { label: "Login", path: "/login" },
+    { label: "Pricing", path: "/pricing" },
   ];
 
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
       <AppBar position="fixed">
         <Toolbar>
           <IconButton edge="start" color="inherit">
-            <Typography variant="h4">SM</Typography>
+            <Typography variant="h4">SMD</Typography>
           </IconButton>
 
           <Stack
